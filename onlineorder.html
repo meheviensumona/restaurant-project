@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restautant</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-shadow: border-box;
+        }
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.5;
+        }
+        /*------header---------*/
+        .header{
+           
+            background: linear-gradien(rgba(0,0,0,1),rgba(0,0,0,1));
+            background-image: url('onlineorder.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 600px;
+            background-attachment: fixed;
+        
+        }
+        .hero{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 1000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient( to right, red 10% ,orange 60%);
+    padding-top: 180px;
+    background-size: 200% auto;
+    color: rgb(99, 12, 12);
+    background-clip: text;
+    animation: textclip 6s linera infinite;
+    text-shadow: 2px 2px 5px  black;
+    }
+        .hero-button{
+      margin-top:150px ;
+        width: 400px;
+        height:60px;
+        border-radius:50px;
+        font-size:30 ;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        background:linear-gradient(120deg, #000066,black,) ;
+        background-size:400px ;
+        color: orange;
+        border:none;
+        background-color: #fff;
+
+        }
+        .hero-button:hover{
+            background-color: orange;
+           color: black;
+            border: none;
+        }
+        .pulsate{
+            animation:plusate 3s ease-in-out;
+            animation-iteration-count: infinite;
+            opacity: .9;
+            color: black;
+
+        }
+        @-webkit-keyframes pulsate{
+            0%{
+                opacity: .3;
+            }
+            50%{
+                opacity:1 ;
+            }
+            100%{
+                opacity: .3;
+            }
+        }
+        /*end hedder section*/
+
+
+        /*About us*/
+
+    .ss{
+        font-size: 30px;
+        color: orange;
+    }
+     .ss:hover{
+        color: palevioletred;
+         font-size:35px ;
+    }
+
+
+
+    .sc{
+        font-size: 50px;
+        color: orange;
+    }
+     .sc:hover{
+        color: palevioletred;
+         font-size:60px ;
+    }
+.text{
+    text-align: center;
+    font-size: 50px;
+    padding-top: none;
+}
+.title{
+
+    padding-bottom: 50px;
+    padding-top:0px;
+    color: black;
+}
+span{
+    color: brown;
+}
+    
+    
+    /*end about us*/
+
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>      
+    
+<nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href="index.htlm">restautant</a>
+
+    <button class="navbar-toggler navber-toggler-right" type="button" data-toggle="collapse" data-target="#sumona"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse navbar-item" id="navbarNav"></div>
+    
+    <div class=" collapse navbar-collapse" id="sumona">
+    <ul class="navbar-nav">
+    <li class="nav-item ">
+    <a class="nav-link"href="home.html">Home</a>
+    </li>
+    <li class="nav-item ">
+    <a class="nav-link" href="index.html">Menu</a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="onlineorder.html">Online Order</a>
+    </li>
+    
+    <li class="nav-item">
+    <a class="nav-link" href="contactus.html">Contact</a>
+    </li>
+   
+    
+    </ul>
+    </div>
+    </div>
+    </nav>
+    <header  class="header">
+        <div class="hero">
+            <h1 class="title text-white">Food For<span class="type"></span></h1>
+<a href ="#" class="hero-button pulsate">Book a table</a>
+            </h1>
+        </div>
+    </header>
+
+
+
+
+<br>
+<br>
+
+
+<section id="about">
+    <p class="text pb-5px">About Us</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-lg-4">
+            
+         
+           <i class="fas fa-mug-hot sa  fa-3x"></i><b class="ss">Drink</b>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit odio neque asperiores commodi. Recusandae dignissimos dicta aspernatur et, ea fuga dolorem suscipit dolore, repellat atque ex. Saepe, exercitationem ducimus. Ratione!</p>
+        </div>
+
+
+        <div class="col-sm-12 col-lg-4">
+            <i class="fas fa-utensils sa fa-3x"></i><b  class="ss">Healthy Food</b>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloremque repudiandae maiores molestias ratione minima. Ratione natus corporis tempore eum, at, repellat sequi perferendis cum eius, in ipsam facilis commodi!</p>        </div>
+
+        <div class="col-sm-12 col-lg-4">
+            <i class="fas fa-drumstick-bite sa fa-3x"></i><b  class="ss">White meat</b>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi atque ipsum corrupti id ut obcaecati incidunt modi quibusdam consequuntur, ea sint ipsa necessitatibus illum fugiat, illo, cumque culpa vitae labore!</p>
+            </p>
+        </div>
+
+    </div>
+
+    
+    </div>
+</div>
+</section>
+
+
+<section>
+ 
+
+<div class="card-columns">
+<div class="card"
+data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+<img class="card-img-top" src="img2.jpg">
+<div class="card-body">
+<h5 class="card-title">Meat Burger</h5>
+<p> 4$
+</p>
+<a class="btn btn-info btn-block" 
+href="#">Order </a>
+</div>
+</div>
+
+<div class="card"
+data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+    <img class="card-img-top" src="img3.jpg">
+    <div class="card-body">
+    <h5 class="card-title">Clubhouse Sandwich</h5>
+    <p> 20$
+    </p>
+    <a class="btn btn-info btn-block" 
+    href="#">Order </a>
+    </div>
+    </div>
+
+    <div class="card"
+    data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+    >
+        <img class="card-img-top" src="img4.jpg">
+        <div class="card-body">
+        <h5 class="card-title">Meat Sanswich</h5>
+        <p> 21$
+        </p>
+        <a class="btn btn-info btn-block" 
+        href="#">Order </a>
+        </div>
+        </div>
+
+</section>
+
+
+
+<section>
+ 
+    
+    <div class="card-columns">
+    <div class="card"
+    data-aos="flip-right"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+    >
+    <img class="card-img-top" src="img5.jpg">
+    <div class="card-body">
+    <h5 class="card-title">Sandwich</h5>
+    <p>2$
+    </p>
+    <a class="btn btn-info btn-block" 
+    href="#">Order </a>
+    </div>
+    </div>
+    
+    <div class="card"
+    data-aos="flip-right"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+    >
+        <img class="card-img-top" src="img6.jpg">
+        <div class="card-body">
+        <h5 class="card-title">Burger</h5>
+        <p>3$
+        </p>
+        <a class="btn btn-info btn-block" 
+        href="#">Order </a>
+        </div>
+        </div>
+    
+        <div class="card"
+        data-aos="flip-right"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+        >
+            <img class="card-img-top" src="img7.jpg">
+            <div class="card-body">
+            <h5 class="card-title">Gurger on white ceramic Plate</h5>
+            <p> 5$
+            </p>
+            <a class="btn btn-info btn-block" 
+            href="#">Order </a>
+            </div>
+            </div>
+    
+    </section>
+
+    
+<section>
+ 
+    
+    <div class="card-columns car">
+    <div class="card"
+    data-aos="flip-left"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+    >
+    <img class="card-img-top" src="img8.jpg">
+    <div class="card-body">
+    <h5 class="card-title">Burger</h5>
+    <p> 3$
+    </p>
+    <a class="btn btn-info btn-block" 
+    href="#">Order </a>
+    </div>
+    </div>
+    
+    <div class="card"
+    data-aos="flip-left"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+    >
+        <img class="card-img-top" src="img9.jpg">
+        <div class="card-body">
+        <h5 class="card-title">Sandwich</h5>
+        <p> 2$
+        </p>
+        <a class="btn btn-info btn-block" 
+        href="#">Order </a>
+        </div>
+        </div>
+    
+        <div class="card"
+        data-aos="flip-left"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+        >
+            <img class="card-img-top" src="img10.jpg">
+            <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p> 2$
+            </p>
+            <a class="btn btn-info btn-block" 
+            href="#">Order </a>
+            </div>
+            </div>
+    
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>                   
+    <script type="text/javascript">
+    var typed = new Typed('.type', {
+                                strings: ['HEALTHY'],
+                                
+                                    typeSpeed: 100,
+                                    backSpeed: 100,
+                                    loop:true
+                                });
+    
+    
+    </script>
+
+
+
+    
+    </script>
+</body>
+</html>

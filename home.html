@@ -1,0 +1,586 @@
+<html>
+<head> 
+<title>3-project</title>
+<style>
+.navbar{
+background:rgba(0,0,0,1);
+}
+.nav-item{
+padding-left:3em;
+}
+.nav-link{
+text-transform:uppercase;
+}
+
+
+.font-1{
+font-size:100px;
+}
+#getstarted{
+background-image: url('img/img1.jpg');
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+min-height:200px;
+position:relative;
+}
+#slider-pic{
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+min-height:200px;
+
+}
+
+.overlay{
+background:rgba(0,0,0,0.6);
+background-attachment:fixed;
+min-height:200px;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+.font-2{
+font-size:10px;
+}
+#home-video{
+background-image: url("img/img1.jpg");
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+min-height:200px;
+position:relative;
+}
+.font-3{
+font-size:50px;
+color:#fff;
+}
+
+#copyright{
+background:#000;
+}
+
+
+
+
+</style>
+<link rel="stylesheet" href="css/uikit.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+</head>
+<body>
+ 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/uikit.js"></script>
+<script src="js/uikit.min.js"></script>
+<section>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="home.html">restautant</a>
+
+        <button class="navbar-toggler navber-toggler-right" type="button" data-toggle="collapse" data-target="#sumona"><span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse navbar-item" id="navbarNav"></div>
+        
+        <div class=" collapse navbar-collapse" id="sumona">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+        <a class="nav-link"href="home.html">Home</a>
+        </li>
+        <li class="nav-item ">
+        <a class="nav-link" href="index.html">Menu</a>
+        </li>
+        <li class="nav-item ">
+        <a class="nav-link" href="onlineorder.html">Online Order</a>
+        </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact</a>
+        </li>
+        
+        
+        </ul>
+        </div>
+        </div>
+        </nav>
+</section>
+
+
+<section id="slide-pic">
+<div id="slider1" class="carousel slider" data-ride="carousel">
+
+<ol class="carousel-indicators">
+<li class="active" data-target="#slider1" data-slider-to="0">
+</li>
+<li  data-target="#slider1" data-slider-to="1">
+</li>
+<li data-target="#slider1" data-slider-to="2">
+</li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="carousel-item active">
+<img src="img/ww21.jpg" class="d-block img-fluid img-1 h-50 w-100" alt="first-slide">
+<div class="carousel-caption mb-5 pb-5 text-center">
+<div class="container">
+<h3>hello word</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem eaque tempore perspiciatis, placeat unde esse ut inventore? Eos sed aliquam consequatur ut perferendis deserunt excepturi praesentium alias facilis dolores?</p>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<img src="img/ww22.jpg" class="d-block img-fluid  h-50 w-100" alt="second-slide">
+<div class="carousel-caption text-center text-primary mb-5 pb-5">
+<h3>note book</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus enim numquam assumenda aperiam odio a dolorem quod mollitia atque sunt, placeat, odit labore, voluptates vero illum molestias fuga iusto alias?</p>
+</div>
+</div>
+<div class="carousel-item">
+<img src="img/ww23.jpg" class="img-fluid h-50 w-100"alt="third-slide">
+<div class="carousel-caption text-right text-light">
+<h3>Hello</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit in, assumenda odio nemo molestias error quas? Pariatur cumque tempora, nobis et, ad quos eum dignissimos repellendus nemo omnis exercitationem maxime?</p>
+</div>
+</div>
+</div>
+</div>
+<a href="#slider1" class="carousel-control-prev" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+
+<a href="#slider1" class="carousel-control-next" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+</section>
+
+
+<section id="homeicon" class="text-center py-5">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<div class="font-1">
+    <i class="fa fa-lemon-o" aria-hidden="true"></i>
+</div>
+<h1>Turning Grars</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio autem, obcaecati non cumque fugit est omnis libero aspernatur. Libero maiores eaque cumque iste ex magni? Beatae ipsa eligendi aliquam.</p>
+</div>
+<div class="col-sm-12 col-lg-4">
+<div class="font-1">
+    <i class="fa fa-cutlery" aria-hidden="true"></i></div>
+<h1>Turning Grars</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam nisi modi sequi iste harum. Illum tempore quibusdam commodi, quis blanditiis ducimus ipsam. Ad illo pariatur, veritatis rem id tempora?</p>
+</div>
+<div class="col-sm-12 col-lg-4">
+<div class="font-1">
+    <i class="fa fa-coffee" aria-hidden="true"></i></i></div>
+<h1>Turning Grars</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quos vero natus suscipit consectetur, officiis saepe laborum nisi aliquid dolores nam omnis voluptas eos adipisci, molestias ducimus nesciunt recusandae ipsum</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="getstarted" class="text-light text-center bg">
+
+<div class="overlay">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-lg-12 mt-4 pt-4 pb-0 mb-0">
+<h5>Are you Ready to get Started</h5>
+<div class="font-2">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas voluptatibus perspiciatis tenetur!</p></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="home-info" class="py-5">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-lg-6">
+
+<h2>Snack Burger</h2>
+<p>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vitae maxime dolores aperiam harum, rerum voluptatum tempora ratione! Ducimus nam eligendi exercitationem, quae necessitatibus odit sint quidem velit id ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus velit voluptates, commodi quam ad saepe modi laborum, adipisci unde asperiores, autem quae. Ut libero consequatur, amet excepturi nihil hic fuga laborum exercitationem quas aspernatur velit quaerat, fugiat possimus qui est explicabo deleniti dolore repellat magni odit, temporibus quis suscipit perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique veniam illo amet sapiente, deserunt quas autem, fugiat accusantium delectus suscipit at harum architecto in nostrum odio iure consectetur! Minus obcaecati magni architecto quam, fugiat dignissimos reiciendis aliquid odit excepturi consequuntur optio eligendi maxime voluptatibus omnis ex fuga, quis iusto ratione.</p>
+<a class="btn btn-primary"href="#">Read more</a>
+</div>
+
+<div class="col-sm-12 col-lg-6"
+data-aos="fade-left"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+<img src="img/img5.jpg" class="img-fluid py-3">
+</div>
+</div>
+</div>
+</section>
+<!---------home video section--------->
+<section id="home-video" class="text-center">
+<div class="overlay">
+<div class="container">
+<div class="row">
+<div class="col">
+<div class="font-3">
+    <a data-fancybox="gallery" href="video1.mp4">
+       <i class="fa fa-youtube-square"></i>
+</a>
+</div>
+<h2 class="text-light mt-3">Click Youtube icon to see a video!
+</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section id="gallery" class="text-center" uk-lightbox>
+<div class="containerr">
+<div class="row">
+<div class="col">
+<h2>Gallery</h2>
+<p> <b>check out our photo</b></p>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-4 col-lg-2" 
+  data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out">
+<div>
+    <a data-fancybox="gallery" href="img/im1.jpg"><img src="img/im1.jpg" title="Sumona" class="img-fluid"></a>
+</div>
+</div>
+
+<div class="col-sm-4 col-lg-2"
+data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+<div>
+    <a data-fancybox="gallery" href="img/im2.jpg"><img src="img/im2.jpg"  class="img-fluid"></a>
+</div>
+</div>
+
+<div class="col-sm-4 col-lg-2"
+data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+    <div>
+        <a data-fancybox="gallery" href="img/im3.jpg"><img src="img/im3.jpg" class="img-fluid"></a>
+    </div>
+    </div>
+
+    <div class="col-sm-4 col-lg-2"
+    data-aos="zoom-in"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    >
+        <div>
+            <a data-fancybox="gallery" href="img/im4.jpg"><img src="img/im4.jpg"  class="img-fluid"></a>
+        </div>
+        </div>
+        
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        >
+            <div>
+                <a data-fancybox="gallery" href="img/im5.jpg"><img src="img/im5.jpg" class="img-fluid"></a>
+            </div>
+            </div>
+
+<div class="col-sm-4 col-lg-2"
+data-aos="zoom-in"
+data-aos-delay="50"
+data-aos-duration="1500"
+data-aos-easing="ease-in-out"
+>
+<div>
+    <a data-fancybox="gallery" href="img/im6.jpg"><img src="img/im6.jpg"  class="img-fluid"></a>
+</div>
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-sm-4 col-lg-2"
+    data-aos="zoom-in"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    >
+    <div>
+        <a data-fancybox="gallery" href="img/im7.jpg"><img src="img/im7.jpg" title="Sumona" class="img-fluid"></a>
+    </div>
+    </div>
+    
+    <div class="col-sm-4 col-lg-2"
+    data-aos="zoom-in"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    >
+    <div>
+        <a data-fancybox="gallery" href="img/im8.jpg"><img src="img/im8.jpg"  class="img-fluid"></a>
+    </div>
+    </div>
+    
+    <div class="col-sm-4 col-lg-2"
+    data-aos="zoom-in"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    >
+        <div>
+            <a data-fancybox="gallery" href="img/im9.jpg"><img src="img/im9.jpg" class="img-fluid"></a>
+        </div>
+        </div>
+    
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        >
+            <div>
+                <a data-fancybox="gallery" href="img/im10.jpg"><img src="img/im10.jpg"  class="img-fluid"></a>
+            </div>
+            </div>
+            
+            <div class="col-sm-4 col-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            >
+                <div>
+                    <a data-fancybox="gallery" href="img/im11.jpg"><img src="img/im11.jpg" class="img-fluid"></a>
+                </div>
+                </div>
+    
+    <div class="col-sm-4 col-lg-2"
+    data-aos="zoom-in"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    >
+    <div>
+        <a data-fancybox="gallery" href="img/im12.jpg"><img src="img/im12.jpg"  class="img-fluid"></a>
+    </div>
+    </div>
+    
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+        >
+        <div>
+            <a data-fancybox="gallery" href="img/im13.jpg"><img src="img/im13.jpg" title="Sumona" class="img-fluid"></a>
+        </div>
+        </div>
+        
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+        >
+        <div>
+            <a data-fancybox="gallery" href="img/im14.jpg"><img src="img/im14.jpg"  class="img-fluid"></a>
+        </div>
+        </div>
+        
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+        >
+            <div>
+                <a data-fancybox="gallery" href="img/im15.jpg"><img src="img/im15.jpg" class="img-fluid"></a>
+            </div>
+            </div>
+        
+            <div class="col-sm-4 col-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            >
+                <div>
+                    <a data-fancybox="gallery" href="img/im16.jpg"><img src="img/im16.jpg"  class="img-fluid"></a>
+                </div>
+                </div>
+                
+                <div class="col-sm-4 col-lg-2"
+                data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+                >
+                    <div>
+                        <a data-fancybox="gallery" href="img/im17.jpg"><img src="img/im17.jpg" class="img-fluid"></a>
+                    </div>
+                    </div>
+        
+        <div class="col-sm-4 col-lg-2"
+        data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+        >
+        <div>
+            <a data-fancybox="gallery" href="img/im18.jpg"><img src="img/im18.jpg"  class="img-fluid"></a>
+        </div>
+        </div>
+        
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 col-lg-2" 
+              data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out">
+            <div>
+                <a data-fancybox="gallery" href="img/im1.jpg"><img src="img/im1.jpg" title="Sumona" class="img-fluid"></a>
+            </div>
+            </div>
+            
+            <div class="col-sm-4 col-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            >
+            <div>
+                <a data-fancybox="gallery" href="img/im2.jpg"><img src="img/im2.jpg"  class="img-fluid"></a>
+            </div>
+            </div>
+            
+            <div class="col-sm-4 col-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            >
+                <div>
+                    <a data-fancybox="gallery" href="img/im3.jpg"><img src="img/im3.jpg" class="img-fluid"></a>
+                </div>
+                </div>
+            
+                <div class="col-sm-4 col-lg-2"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out"
+                >
+                    <div>
+                        <a data-fancybox="gallery" href="img/im4.jpg"><img src="img/im4.jpg"  class="img-fluid"></a>
+                    </div>
+                    </div>
+                    
+                    <div class="col-sm-4 col-lg-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"
+                    >
+                        <div>
+                            <a data-fancybox="gallery" href="img/im5.jpg"><img src="img/im5.jpg" class="img-fluid"></a>
+                        </div>
+                        </div>
+            
+            <div class="col-sm-4 col-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            >
+            <div>
+                <a data-fancybox="gallery" href="img/im6.jpg"><img src="img/im6.jpg"  class="img-fluid"></a>
+            </div>
+            </div>
+            
+            </div>
+
+<br>
+    <a class="btn btn-primary"href="#">See More</a>
+</div>
+</section>
+<br>
+<section id="newletter" class="py-5 bg-dark text-center text-light">
+<div class="container">
+<div class="row">
+<div class="col">
+<h2>Sign Up For Our Newletter</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi adipisci temporibus in doloremque, dolor, dignissimos recusandae ut rem cupiditate officia, ducimus vitae expedita magnam perspiciatis quasi quae error tempora? Eligendi?</p>
+<form class="form-inline justify-content-center">
+<label for="name" class="sr-only">Name</label>
+<input class="mr-3 form-control" type="text" placeholder="Name">
+<label for="email" class="sr-only">Email</label>
+<input class="mr-3 form-control" type="email" placeholder="email">
+<input class="btn btn-primary form-control form-control-lg" type="submit" valu="subscribe">
+</form>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="copyright" class="text-center text-light pt-4">
+<div class="container">
+<div class="row">
+<div class="col">
+<p> copy right &copy; Glozzon </p>
+</div></div></div>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
